@@ -1,0 +1,9 @@
+CONCLUSIONES
+
+- Se automatizó exitosamente el flujo E2E de compra en Demoblaze.
+- El flujo valida la compra completa de dos productos.
+- Se implementó arquitectura Page Object Model para mejorar mantenibilidad.
+- Se configuró generación automática de screenshots y reportes HTML.
+- Los selectores fueron optimizados para evitar conflictos en ejecución.
+- El proyecto es escalable y reutilizable para futuros escenarios.
+- Todas las pruebas finalizaron exitosamente.

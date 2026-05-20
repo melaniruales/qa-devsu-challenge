@@ -1,0 +1,24 @@
+CONCLUSIONS
+
+The E2E automation successfully validates the complete purchase flow in Demoblaze, including adding products to the cart, completing the checkout process and validating the final confirmation message.
+
+The project was implemented using Playwright with Page Object Model architecture to improve maintainability, readability and scalability.
+
+API automation was implemented using Cypress, validating positive and negative scenarios for signup and login functionalities.
+
+Main challenges identified:
+- Dynamic selectors causing strict mode violations.
+- Dialog handling during add-to-cart actions.
+- Synchronization issues while validating cart content.
+
+Implemented solutions:
+- Use of exact selectors.
+- waitForEvent for dialog handling.
+- Explicit assertions using expect.
+
+The project demonstrates:
+- E2E automation skills.
+- API testing skills.
+- Debugging capabilities.
+- Good automation practices.
+- Structured and maintainable architecture.
